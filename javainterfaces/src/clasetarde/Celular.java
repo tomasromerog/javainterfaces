@@ -1,4 +1,4 @@
-package ejercmanananuevo.ejercmanana;
+package clasetarde;
 
 public class Celular implements Precedable<Celular> {
 

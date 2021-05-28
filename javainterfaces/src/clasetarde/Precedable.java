@@ -1,4 +1,4 @@
-package ejercmanananuevo.ejercmanana;
+package clasetarde;
 
 public interface Precedable<T> {
 

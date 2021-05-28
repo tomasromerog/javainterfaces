@@ -1,19 +1,12 @@
-package ejercmanananuevo.ejercmanana;
+package clasetarde;
 
-public class Persona implements Precedable<Persona> {
+public class Persona {
     private String nombre;
     private int dni;
-    private CriterioDeComparacion criterioDeComparacion;
 
     public Persona(String nombre, int dni) {
         this.nombre = nombre;
         this.dni = dni;
-    }
-
-    public Persona(String nombre, int dni, CriterioDeComparacion criterioDeComparacion) {
-        this.nombre = nombre;
-        this.dni = dni;
-        this.criterioDeComparacion = criterioDeComparacion;
     }
 
     public String getNombre() {
@@ -32,11 +25,6 @@ public class Persona implements Precedable<Persona> {
         this.dni = dni;
     }
 
-    @Override
-    public int precedeA(Persona persona) {
-
-        return this.criterioDeComparacion.comparar(persona, this);
-    }
 
     @Override
     public String toString() {

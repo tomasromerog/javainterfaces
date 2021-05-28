@@ -1,4 +1,4 @@
-package ejercmanananuevo.ejercmanana;
+package ejercmanananuevo;
 
 public interface CriterioDeComparacion<T> {
 

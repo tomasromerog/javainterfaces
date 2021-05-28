@@ -1,6 +1,6 @@
-package ejercmanananuevo.ejercmanana;
+package ejercmanananuevo;
 
-public class MiUtil {
+public class SortUtil {
     public static <T extends Precedable<T>> void ordenar(T arr[]) {
         for(int i = 0 ; i < arr.length ; i++){
             for(int j = 0 ; j < arr.length -1; j++){
